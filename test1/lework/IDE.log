@@ -1,0 +1,555 @@
+15:56:39 DEBUG : Logs will be stored at 'C:/Users/rohan/385lab6/lework/IDE.log'.
+15:56:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\rohan\385lab6\lework\temp_xsdb_launch_script.tcl
+15:56:45 INFO  : Registering command handlers for Vitis TCF services
+15:56:48 INFO  : Platform repository initialization has completed.
+15:56:50 INFO  : XSCT server has started successfully.
+15:56:51 INFO  : plnx-install-location is set to ''
+15:56:51 INFO  : Successfully done setting XSCT server connection channel  
+15:56:51 INFO  : Successfully done query RDI_DATADIR 
+15:56:51 INFO  : Successfully done setting workspace for the tool. 
+15:59:29 INFO  : Result from executing command 'getProjects': mb_intro_top
+15:59:29 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+15:59:30 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:59:32 INFO  : Platform 'mb_intro_top' is added to custom repositories.
+15:59:38 INFO  : Platform 'mb_intro_top' is added to custom repositories.
+16:15:48 INFO  : Result from executing command 'getProjects': mb_intro_top
+16:15:48 INFO  : Result from executing command 'getPlatforms': mb_intro_top|C:/Users/rohan/385lab6/lework/mb_intro_top/export/mb_intro_top/mb_intro_top.xpfm;xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:15:49 INFO  : Checking for BSP changes to sync application flags for project 'mb_blink'...
+16:18:13 INFO  : Checking for BSP changes to sync application flags for project 'mb_blink'...
+16:19:08 INFO  : Checking for BSP changes to sync application flags for project 'mb_blink'...
+16:44:07 INFO  : Checking for BSP changes to sync application flags for project 'mb_blink'...
+16:44:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:44:42 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+16:44:42 INFO  : 'jtag frequency' command is executed.
+16:44:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+16:44:44 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_blink/_ide/bitstream/mb_intro_top.bit"
+16:44:44 INFO  : Context for processor 'microblaze_0' is selected.
+16:44:44 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top/export/mb_intro_top/hw/mb_intro_top.xsa'.
+16:44:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:44:44 INFO  : Context for processor 'microblaze_0' is selected.
+16:44:44 INFO  : System reset is completed.
+16:44:47 INFO  : 'after 3000' command is executed.
+16:44:47 INFO  : Context for processor 'microblaze_0' is selected.
+16:44:47 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_blink/Debug/mb_blink.elf' is downloaded to processor 'microblaze_0'.
+16:44:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_blink/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top/export/mb_intro_top/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_blink/Debug/mb_blink.elf
+----------------End of Script----------------
+
+16:44:48 INFO  : Context for processor 'microblaze_0' is selected.
+16:44:48 INFO  : 'con' command is executed.
+16:44:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:44:48 INFO  : Disconnected from the channel tcfchan#2.
+16:59:48 INFO  : Result from executing command 'getProjects': mb_intro_top;mb_intro_top_1
+16:59:48 INFO  : Result from executing command 'getPlatforms': mb_intro_top|C:/Users/rohan/385lab6/lework/mb_intro_top/export/mb_intro_top/mb_intro_top.xpfm;xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:59:51 INFO  : Platform 'mb_intro_top_1' is added to custom repositories.
+16:59:54 INFO  : Platform 'mb_intro_top_1' is added to custom repositories.
+17:12:15 INFO  : Result from executing command 'getProjects': mb_intro_top;mb_intro_top_1
+17:12:15 INFO  : Result from executing command 'getPlatforms': mb_intro_top_1|C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/mb_intro_top_1.xpfm;mb_intro_top|C:/Users/rohan/385lab6/lework/mb_intro_top/export/mb_intro_top/mb_intro_top.xpfm;xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:12:16 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+17:12:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:12:50 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+17:12:50 INFO  : 'jtag frequency' command is executed.
+17:12:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+17:12:51 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_blink/_ide/bitstream/mb_intro_top.bit"
+17:12:52 INFO  : Context for processor 'microblaze_0' is selected.
+17:12:52 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top/export/mb_intro_top/hw/mb_intro_top.xsa'.
+17:12:52 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:12:52 INFO  : Context for processor 'microblaze_0' is selected.
+17:12:52 INFO  : System reset is completed.
+17:12:55 INFO  : 'after 3000' command is executed.
+17:12:55 INFO  : Context for processor 'microblaze_0' is selected.
+17:12:55 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_blink/Debug/mb_blink.elf' is downloaded to processor 'microblaze_0'.
+17:12:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_blink/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top/export/mb_intro_top/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_blink/Debug/mb_blink.elf
+----------------End of Script----------------
+
+17:12:55 INFO  : Context for processor 'microblaze_0' is selected.
+17:12:55 INFO  : 'con' command is executed.
+17:12:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:12:55 INFO  : Disconnected from the channel tcfchan#4.
+17:13:32 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+17:13:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:13:57 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+17:13:57 INFO  : 'jtag frequency' command is executed.
+17:13:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+17:13:58 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+17:13:58 INFO  : Context for processor 'microblaze_0' is selected.
+17:13:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+17:13:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:13:59 INFO  : Context for processor 'microblaze_0' is selected.
+17:13:59 INFO  : System reset is completed.
+17:14:02 INFO  : 'after 3000' command is executed.
+17:14:02 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:02 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf' is downloaded to processor 'microblaze_0'.
+17:14:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf
+----------------End of Script----------------
+
+17:14:02 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:02 INFO  : 'con' command is executed.
+17:14:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:14:02 INFO  : Disconnected from the channel tcfchan#5.
+17:14:32 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+17:15:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:15:19 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+17:15:19 INFO  : 'jtag frequency' command is executed.
+17:15:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+17:15:21 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+17:15:21 INFO  : Context for processor 'microblaze_0' is selected.
+17:15:21 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+17:15:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:15:21 INFO  : Context for processor 'microblaze_0' is selected.
+17:15:21 INFO  : System reset is completed.
+17:15:24 INFO  : 'after 3000' command is executed.
+17:15:24 INFO  : Context for processor 'microblaze_0' is selected.
+17:15:24 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf' is downloaded to processor 'microblaze_0'.
+17:15:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf
+----------------End of Script----------------
+
+17:15:24 INFO  : Context for processor 'microblaze_0' is selected.
+17:15:24 INFO  : 'con' command is executed.
+17:15:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:15:24 INFO  : Disconnected from the channel tcfchan#6.
+17:23:25 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+17:25:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:25:44 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+17:25:44 INFO  : 'jtag frequency' command is executed.
+17:25:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+17:25:45 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+17:25:45 INFO  : Context for processor 'microblaze_0' is selected.
+17:25:45 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+17:25:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:25:45 INFO  : Context for processor 'microblaze_0' is selected.
+17:25:45 INFO  : System reset is completed.
+17:25:48 INFO  : 'after 3000' command is executed.
+17:25:48 INFO  : Context for processor 'microblaze_0' is selected.
+17:25:48 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf' is downloaded to processor 'microblaze_0'.
+17:25:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf
+----------------End of Script----------------
+
+17:25:49 INFO  : Context for processor 'microblaze_0' is selected.
+17:25:49 INFO  : 'con' command is executed.
+17:25:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:25:49 INFO  : Disconnected from the channel tcfchan#7.
+17:26:48 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+17:26:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:26:58 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+17:26:58 INFO  : 'jtag frequency' command is executed.
+17:26:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+17:27:00 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+17:27:00 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:00 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+17:27:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:27:00 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:00 INFO  : System reset is completed.
+17:27:03 INFO  : 'after 3000' command is executed.
+17:27:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:03 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf' is downloaded to processor 'microblaze_0'.
+17:27:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf
+----------------End of Script----------------
+
+17:27:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:03 INFO  : 'con' command is executed.
+17:27:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:27:03 INFO  : Disconnected from the channel tcfchan#8.
+17:32:14 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+17:32:45 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+17:33:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:33:02 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+17:33:02 INFO  : 'jtag frequency' command is executed.
+17:33:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+17:33:04 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+17:33:04 INFO  : Context for processor 'microblaze_0' is selected.
+17:33:04 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+17:33:04 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:33:04 INFO  : Context for processor 'microblaze_0' is selected.
+17:33:04 INFO  : System reset is completed.
+17:33:07 INFO  : 'after 3000' command is executed.
+17:33:07 INFO  : Context for processor 'microblaze_0' is selected.
+17:33:07 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf' is downloaded to processor 'microblaze_0'.
+17:33:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf
+----------------End of Script----------------
+
+17:33:07 INFO  : Context for processor 'microblaze_0' is selected.
+17:33:07 INFO  : 'con' command is executed.
+17:33:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:33:07 INFO  : Disconnected from the channel tcfchan#9.
+17:35:57 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+17:42:25 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+22:36:09 DEBUG : Logs will be stored at 'C:/Users/rohan/385lab6/lework/IDE.log'.
+22:36:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\rohan\385lab6\lework\temp_xsdb_launch_script.tcl
+22:36:13 INFO  : XSCT server has started successfully.
+22:36:13 INFO  : plnx-install-location is set to ''
+22:36:13 INFO  : Successfully done setting XSCT server connection channel  
+22:36:13 INFO  : Successfully done setting workspace for the tool. 
+22:36:17 INFO  : Registering command handlers for Vitis TCF services
+22:36:18 INFO  : Successfully done query RDI_DATADIR 
+22:36:18 INFO  : Platform repository initialization has completed.
+22:38:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:38:04 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+22:38:04 INFO  : 'jtag frequency' command is executed.
+22:38:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+22:38:05 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+22:38:05 INFO  : Context for processor 'microblaze_0' is selected.
+22:38:05 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+22:38:05 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:38:05 INFO  : Context for processor 'microblaze_0' is selected.
+22:38:05 INFO  : System reset is completed.
+22:38:08 INFO  : 'after 3000' command is executed.
+22:38:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+----------------End of Script----------------
+
+22:38:08 INFO  : Disconnected from the channel tcfchan#1.
+22:38:30 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+22:39:03 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+22:39:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:39:21 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+22:39:21 INFO  : 'jtag frequency' command is executed.
+22:39:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+22:39:22 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+22:39:22 INFO  : Context for processor 'microblaze_0' is selected.
+22:39:22 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+22:39:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:39:22 INFO  : Context for processor 'microblaze_0' is selected.
+22:39:22 INFO  : System reset is completed.
+22:39:25 INFO  : 'after 3000' command is executed.
+22:39:26 INFO  : Context for processor 'microblaze_0' is selected.
+22:39:26 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf' is downloaded to processor 'microblaze_0'.
+22:39:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf
+----------------End of Script----------------
+
+22:39:26 INFO  : Context for processor 'microblaze_0' is selected.
+22:39:26 INFO  : 'con' command is executed.
+22:39:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:39:26 INFO  : Disconnected from the channel tcfchan#2.
+22:41:13 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+22:41:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:41:22 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+22:41:22 INFO  : 'jtag frequency' command is executed.
+22:41:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+22:41:24 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+22:41:24 INFO  : Context for processor 'microblaze_0' is selected.
+22:41:24 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+22:41:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:41:24 INFO  : Context for processor 'microblaze_0' is selected.
+22:41:24 INFO  : System reset is completed.
+22:41:27 INFO  : 'after 3000' command is executed.
+22:41:27 INFO  : Context for processor 'microblaze_0' is selected.
+22:41:27 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf' is downloaded to processor 'microblaze_0'.
+22:41:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf
+----------------End of Script----------------
+
+22:41:27 INFO  : Context for processor 'microblaze_0' is selected.
+22:41:27 INFO  : 'con' command is executed.
+22:41:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:41:27 INFO  : Disconnected from the channel tcfchan#3.
+22:41:56 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+22:42:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:42:11 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+22:42:11 INFO  : 'jtag frequency' command is executed.
+22:42:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+22:42:12 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+22:42:12 INFO  : Context for processor 'microblaze_0' is selected.
+22:42:12 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+22:42:12 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:42:12 INFO  : Context for processor 'microblaze_0' is selected.
+22:42:12 INFO  : System reset is completed.
+22:42:15 INFO  : 'after 3000' command is executed.
+22:42:15 INFO  : Context for processor 'microblaze_0' is selected.
+22:42:15 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf' is downloaded to processor 'microblaze_0'.
+22:42:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf
+----------------End of Script----------------
+
+22:42:16 INFO  : Context for processor 'microblaze_0' is selected.
+22:42:16 INFO  : 'con' command is executed.
+22:42:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:42:16 INFO  : Disconnected from the channel tcfchan#4.
+22:42:39 INFO  : Checking for BSP changes to sync application flags for project 'mb_cumlator'...
+22:42:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:42:47 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+22:42:47 INFO  : 'jtag frequency' command is executed.
+22:42:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+22:42:48 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+22:42:48 INFO  : Context for processor 'microblaze_0' is selected.
+22:42:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+22:42:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:42:48 INFO  : Context for processor 'microblaze_0' is selected.
+22:42:48 INFO  : System reset is completed.
+22:42:51 INFO  : 'after 3000' command is executed.
+22:42:51 INFO  : Context for processor 'microblaze_0' is selected.
+22:42:51 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf' is downloaded to processor 'microblaze_0'.
+22:42:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf
+----------------End of Script----------------
+
+22:42:51 INFO  : Context for processor 'microblaze_0' is selected.
+22:42:51 INFO  : 'con' command is executed.
+22:42:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:42:51 INFO  : Disconnected from the channel tcfchan#5.
+14:41:48 DEBUG : Logs will be stored at 'C:/Users/rohan/385lab6/lework/IDE.log'.
+14:41:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\rohan\385lab6\lework\temp_xsdb_launch_script.tcl
+14:41:54 INFO  : XSCT server has started successfully.
+14:41:54 INFO  : plnx-install-location is set to ''
+14:41:54 INFO  : Successfully done setting XSCT server connection channel  
+14:41:54 INFO  : Successfully done setting workspace for the tool. 
+14:41:58 INFO  : Successfully done query RDI_DATADIR 
+14:41:58 INFO  : Registering command handlers for Vitis TCF services
+14:41:59 INFO  : Platform repository initialization has completed.
+15:07:39 DEBUG : Logs will be stored at 'C:/Users/rohan/385lab6/lework/IDE.log'.
+15:07:40 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\rohan\385lab6\lework\temp_xsdb_launch_script.tcl
+15:07:44 INFO  : XSCT server has started successfully.
+15:07:44 INFO  : Successfully done setting XSCT server connection channel  
+15:07:44 INFO  : plnx-install-location is set to ''
+15:07:44 INFO  : Successfully done setting workspace for the tool. 
+15:07:49 INFO  : Registering command handlers for Vitis TCF services
+15:07:50 INFO  : Successfully done query RDI_DATADIR 
+15:07:50 INFO  : Platform repository initialization has completed.
+15:08:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:08:06 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+15:08:06 INFO  : 'jtag frequency' command is executed.
+15:08:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+15:08:07 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+15:08:08 INFO  : Context for processor 'microblaze_0' is selected.
+15:08:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+15:08:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:08:08 INFO  : Context for processor 'microblaze_0' is selected.
+15:08:08 INFO  : System reset is completed.
+15:08:11 INFO  : 'after 3000' command is executed.
+15:08:11 INFO  : Context for processor 'microblaze_0' is selected.
+15:08:11 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf' is downloaded to processor 'microblaze_0'.
+15:08:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf
+----------------End of Script----------------
+
+15:08:11 INFO  : Context for processor 'microblaze_0' is selected.
+15:08:11 INFO  : 'con' command is executed.
+15:08:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:08:11 INFO  : Disconnected from the channel tcfchan#1.
+15:14:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:14:53 INFO  : Jtag cable 'RealDigital Boo 887429230031A' is selected.
+15:14:53 INFO  : 'jtag frequency' command is executed.
+15:14:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+15:14:55 INFO  : Device configured successfully with "C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit"
+15:14:55 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:55 INFO  : Hardware design and registers information is loaded from 'C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa'.
+15:14:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:14:55 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:55 INFO  : System reset is completed.
+15:14:58 INFO  : 'after 3000' command is executed.
+15:14:58 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:58 INFO  : The application 'C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf' is downloaded to processor 'microblaze_0'.
+15:14:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230031A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/rohan/385lab6/lework/mb_cumlator/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/rohan/385lab6/lework/mb_intro_top_1/export/mb_intro_top_1/hw/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rohan/385lab6/lework/mb_cumlator/Debug/mb_cumlator.elf
+----------------End of Script----------------
+
+15:14:59 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:59 INFO  : 'con' command is executed.
+15:14:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:14:59 INFO  : Disconnected from the channel tcfchan#2.
+16:01:05 DEBUG : Logs will be stored at 'C:/Users/rohan/385lab6/lework/IDE.log'.
+16:01:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\rohan\385lab6\lework\temp_xsdb_launch_script.tcl
+16:01:10 INFO  : XSCT server has started successfully.
+16:01:10 INFO  : Successfully done setting XSCT server connection channel  
+16:01:10 INFO  : plnx-install-location is set to ''
+16:01:10 INFO  : Successfully done setting workspace for the tool. 
+16:01:12 INFO  : Registering command handlers for Vitis TCF services
+16:01:13 INFO  : Successfully done query RDI_DATADIR 
+16:01:13 INFO  : Platform repository initialization has completed.

@@ -1,0 +1,316 @@
+timestamp=[2024-04-18 22:30:23], mode=WORKBENCH_START, duration=0:00:06.868, duration_ms=6868, data={}
+timestamp=[2024-04-18 22:30:23], mode=WORKBENCH_UI_INIT, duration=0:00:00.382, duration_ms=382, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-04-18 22:30:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.123, duration_ms=1123, data={}
+timestamp=[2024-04-18 22:32:18], mode=APP_CREATION, duration=0:00:05.437, duration_ms=5437, data={name=usbDrivers, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=finalproj_v1, application_type=application}
+timestamp=[2024-04-18 22:35:39], mode=PLATFORM_GENERATION, duration=0:00:11.440, duration_ms=11440, data={name=finalproj_v1}
+timestamp=[2024-04-18 22:35:43], mode=BUILD, duration=0:00:04.070, duration_ms=4070, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 22:38:06], mode=BUILD, duration=0:00:00.250, duration_ms=250, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 22:38:10], mode=BUILD, duration=0:00:04.442, duration_ms=4442, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 22:38:12], mode=BUILD, duration=0:00:00.355, duration_ms=355, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 23:01:59], mode=PLATFORM_GENERATION, duration=0:00:04.326, duration_ms=4326, data={name=finalproj_v1}
+timestamp=[2024-04-18 23:01:59], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 23:01:59], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 23:02:14], mode=PLATFORM_GENERATION, duration=0:00:14.211, duration_ms=14211, data={name=finalproj_v1}
+timestamp=[2024-04-18 23:02:18], mode=BUILD, duration=0:00:03.858, duration_ms=3858, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 23:02:19], mode=BUILD, duration=0:00:00.196, duration_ms=196, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 23:40:42], mode=PLATFORM_GENERATION, duration=0:00:04.450, duration_ms=4450, data={name=finalproj_v1}
+timestamp=[2024-04-18 23:40:43], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 23:40:43], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 23:40:55], mode=PLATFORM_GENERATION, duration=0:00:12.110, duration_ms=12110, data={name=finalproj_v1}
+timestamp=[2024-04-18 23:40:59], mode=BUILD, duration=0:00:03.545, duration_ms=3545, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 23:41:00], mode=BUILD, duration=0:00:00.329, duration_ms=329, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 23:50:02], mode=PLATFORM_GENERATION, duration=0:00:06.618, duration_ms=6618, data={name=finalproj_v1}
+timestamp=[2024-04-18 23:50:15], mode=PLATFORM_GENERATION, duration=0:00:08.088, duration_ms=8088, data={name=finalproj_v1}
+timestamp=[2024-04-18 23:50:16], mode=BUILD, duration=0:00:00.303, duration_ms=303, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 23:50:16], mode=BUILD, duration=0:00:00.262, duration_ms=262, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 23:50:28], mode=PLATFORM_GENERATION, duration=0:00:11.896, duration_ms=11896, data={name=finalproj_v1}
+timestamp=[2024-04-18 23:50:34], mode=BUILD, duration=0:00:05.262, duration_ms=5262, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 23:50:35], mode=BUILD, duration=0:00:00.356, duration_ms=356, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 23:56:39], mode=PLATFORM_GENERATION, duration=0:00:04.061, duration_ms=4061, data={name=finalproj_v1}
+timestamp=[2024-04-18 23:56:40], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 23:56:40], mode=BUILD, duration=0:00:00.251, duration_ms=251, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 23:56:52], mode=PLATFORM_GENERATION, duration=0:00:11.780, duration_ms=11780, data={name=finalproj_v1}
+timestamp=[2024-04-18 23:56:55], mode=BUILD, duration=0:00:02.869, duration_ms=2869, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 23:56:56], mode=BUILD, duration=0:00:00.196, duration_ms=196, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:12:46], mode=WORKBENCH_START, duration=0:00:13.932, duration_ms=13932, data={}
+timestamp=[2024-04-19 15:12:48], mode=WORKBENCH_UI_INIT, duration=0:00:01.266, duration_ms=1266, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,finalproj_v1,usbDrivers,usbDrivers_system}
+timestamp=[2024-04-19 15:12:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.880, duration_ms=1880, data={}
+timestamp=[2024-04-19 23:42:49], mode=PLATFORM_GENERATION, duration=0:00:05.062, duration_ms=5062, data={name=finalproj_v1}
+timestamp=[2024-04-19 23:42:50], mode=BUILD, duration=0:00:00.554, duration_ms=554, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 23:42:50], mode=BUILD, duration=0:00:00.501, duration_ms=501, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 23:43:08], mode=PLATFORM_GENERATION, duration=0:00:17.638, duration_ms=17638, data={name=finalproj_v1}
+timestamp=[2024-04-19 23:43:18], mode=BUILD, duration=0:00:08.803, duration_ms=8803, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 23:43:19], mode=BUILD, duration=0:00:00.440, duration_ms=440, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 23:44:55], mode=PLATFORM_GENERATION, duration=0:00:06.565, duration_ms=6565, data={name=finalproj_v1}
+timestamp=[2024-04-19 23:44:56], mode=BUILD, duration=0:00:00.486, duration_ms=486, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 23:44:56], mode=BUILD, duration=0:00:00.516, duration_ms=516, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 23:45:12], mode=PLATFORM_GENERATION, duration=0:00:15.284, duration_ms=15284, data={name=finalproj_v1}
+timestamp=[2024-04-19 23:45:19], mode=BUILD, duration=0:00:06.681, duration_ms=6681, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 23:45:20], mode=BUILD, duration=0:00:00.415, duration_ms=415, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 23:59:33], mode=PLATFORM_GENERATION, duration=0:00:04.719, duration_ms=4719, data={name=finalproj_v1}
+timestamp=[2024-04-19 23:59:33], mode=BUILD, duration=0:00:00.300, duration_ms=300, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 23:59:33], mode=BUILD, duration=0:00:00.326, duration_ms=326, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 23:59:49], mode=PLATFORM_GENERATION, duration=0:00:15.709, duration_ms=15709, data={name=finalproj_v1}
+timestamp=[2024-04-19 23:59:56], mode=BUILD, duration=0:00:06.167, duration_ms=6167, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 23:59:57], mode=BUILD, duration=0:00:00.242, duration_ms=242, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 00:15:52], mode=PLATFORM_GENERATION, duration=0:00:04.648, duration_ms=4648, data={name=finalproj_v1}
+timestamp=[2024-04-20 00:15:53], mode=BUILD, duration=0:00:00.290, duration_ms=290, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 00:15:53], mode=BUILD, duration=0:00:00.438, duration_ms=438, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 00:16:08], mode=PLATFORM_GENERATION, duration=0:00:14.702, duration_ms=14702, data={name=finalproj_v1}
+timestamp=[2024-04-20 00:16:12], mode=BUILD, duration=0:00:03.427, duration_ms=3427, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 00:16:13], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 00:22:54], mode=PLATFORM_GENERATION, duration=0:00:04.904, duration_ms=4904, data={name=finalproj_v1}
+timestamp=[2024-04-20 00:22:54], mode=BUILD, duration=0:00:00.305, duration_ms=305, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 00:22:55], mode=BUILD, duration=0:00:00.473, duration_ms=473, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 00:23:10], mode=PLATFORM_GENERATION, duration=0:00:15.145, duration_ms=15145, data={name=finalproj_v1}
+timestamp=[2024-04-20 00:23:15], mode=BUILD, duration=0:00:04.238, duration_ms=4238, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 00:23:16], mode=BUILD, duration=0:00:00.423, duration_ms=423, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:43:05], mode=WORKBENCH_START, duration=0:00:10.343, duration_ms=10343, data={}
+timestamp=[2024-04-20 13:43:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.944, duration_ms=944, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,finalproj_v1,usbDrivers,usbDrivers_system}
+timestamp=[2024-04-20 13:43:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.708, duration_ms=2708, data={}
+timestamp=[2024-04-24 15:32:42], mode=WORKBENCH_START, duration=0:00:15.124, duration_ms=15124, data={}
+timestamp=[2024-04-24 15:32:43], mode=WORKBENCH_UI_INIT, duration=0:00:01.495, duration_ms=1495, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,finalproj_v1,usbDrivers,usbDrivers_system}
+timestamp=[2024-04-24 15:32:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.445, duration_ms=2445, data={}
+timestamp=[2024-04-24 15:33:07], mode=PLATFORM_GENERATION, duration=0:00:06.844, duration_ms=6844, data={name=finalproj_v1}
+timestamp=[2024-04-24 15:33:08], mode=BUILD, duration=0:00:00.716, duration_ms=716, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-24 15:33:08], mode=BUILD, duration=0:00:00.702, duration_ms=702, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-24 15:33:30], mode=PLATFORM_GENERATION, duration=0:00:20.876, duration_ms=20876, data={name=finalproj_v1}
+timestamp=[2024-04-24 15:33:38], mode=BUILD, duration=0:00:07.285, duration_ms=7285, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:33:40], mode=BUILD, duration=0:00:00.600, duration_ms=600, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-26 17:56:15], mode=WORKBENCH_START, duration=0:00:15.706, duration_ms=15706, data={}
+timestamp=[2024-04-26 17:56:16], mode=WORKBENCH_UI_INIT, duration=0:00:01.194, duration_ms=1194, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,finalproj_v1,usbDrivers,usbDrivers_system}
+timestamp=[2024-04-26 17:56:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.903, duration_ms=1903, data={}
+timestamp=[2024-04-26 17:57:58], mode=PLATFORM_GENERATION, duration=0:00:06.154, duration_ms=6154, data={name=finalproj_v1}
+timestamp=[2024-04-26 17:57:59], mode=BUILD, duration=0:00:00.361, duration_ms=361, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-26 17:57:59], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-26 17:58:23], mode=PLATFORM_GENERATION, duration=0:00:23.856, duration_ms=23856, data={name=finalproj_v1}
+timestamp=[2024-04-26 17:58:32], mode=BUILD, duration=0:00:08.774, duration_ms=8774, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-26 17:58:34], mode=BUILD, duration=0:00:00.447, duration_ms=447, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-27 13:28:14], mode=PLATFORM_GENERATION, duration=0:00:10.597, duration_ms=10597, data={name=finalproj_v1}
+timestamp=[2024-04-27 13:28:15], mode=BUILD, duration=0:00:00.734, duration_ms=734, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-27 13:28:16], mode=BUILD, duration=0:00:00.922, duration_ms=922, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-27 13:29:01], mode=PLATFORM_GENERATION, duration=0:00:44.741, duration_ms=44741, data={name=finalproj_v1}
+timestamp=[2024-04-27 13:29:16], mode=BUILD, duration=0:00:14.723, duration_ms=14723, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-27 13:29:20], mode=BUILD, duration=0:00:00.763, duration_ms=763, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-27 23:28:40], mode=PLATFORM_GENERATION, duration=0:00:08.240, duration_ms=8240, data={name=finalproj_v1}
+timestamp=[2024-04-27 23:28:41], mode=BUILD, duration=0:00:00.843, duration_ms=843, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-27 23:28:42], mode=BUILD, duration=0:00:00.888, duration_ms=888, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-27 23:29:19], mode=PLATFORM_GENERATION, duration=0:00:37.208, duration_ms=37208, data={name=finalproj_v1}
+timestamp=[2024-04-27 23:29:31], mode=BUILD, duration=0:00:11.800, duration_ms=11800, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-27 23:29:34], mode=BUILD, duration=0:00:00.581, duration_ms=581, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-27 23:52:35], mode=PLATFORM_GENERATION, duration=0:00:07.860, duration_ms=7860, data={name=finalproj_v1}
+timestamp=[2024-04-27 23:52:35], mode=BUILD, duration=0:00:00.593, duration_ms=593, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-27 23:52:36], mode=BUILD, duration=0:00:00.969, duration_ms=969, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-27 23:53:10], mode=PLATFORM_GENERATION, duration=0:00:33.126, duration_ms=33126, data={name=finalproj_v1}
+timestamp=[2024-04-27 23:53:21], mode=BUILD, duration=0:00:10.364, duration_ms=10364, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-27 23:53:23], mode=BUILD, duration=0:00:00.476, duration_ms=476, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-28 00:25:48], mode=PLATFORM_GENERATION, duration=0:00:08.338, duration_ms=8338, data={name=finalproj_v1}
+timestamp=[2024-04-28 00:25:48], mode=BUILD, duration=0:00:00.813, duration_ms=813, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-28 00:25:49], mode=BUILD, duration=0:00:00.648, duration_ms=648, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-28 00:26:30], mode=PLATFORM_GENERATION, duration=0:00:40.594, duration_ms=40594, data={name=finalproj_v1}
+timestamp=[2024-04-28 00:26:41], mode=BUILD, duration=0:00:09.910, duration_ms=9910, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-28 00:26:43], mode=BUILD, duration=0:00:00.511, duration_ms=511, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-29 01:29:50], mode=PLATFORM_GENERATION, duration=0:00:10.511, duration_ms=10511, data={name=finalproj_v1}
+timestamp=[2024-04-29 01:29:50], mode=BUILD, duration=0:00:00.880, duration_ms=880, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-29 01:29:51], mode=BUILD, duration=0:00:00.930, duration_ms=930, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-29 01:30:42], mode=PLATFORM_GENERATION, duration=0:00:50.113, duration_ms=50113, data={name=finalproj_v1}
+timestamp=[2024-04-29 01:30:56], mode=BUILD, duration=0:00:14.126, duration_ms=14126, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-29 01:30:59], mode=BUILD, duration=0:00:00.677, duration_ms=677, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-29 01:35:13], mode=WORKBENCH_START, duration=0:00:10.792, duration_ms=10792, data={}
+timestamp=[2024-04-29 01:35:14], mode=WORKBENCH_UI_INIT, duration=0:00:01.079, duration_ms=1079, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,finalproj_v1,usbDrivers,usbDrivers_system}
+timestamp=[2024-04-29 01:35:16], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.440, duration_ms=1440, data={}
+timestamp=[2024-04-29 01:35:49], mode=BUILD, duration=0:00:00.572, duration_ms=572, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-29 01:35:52], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-29 01:36:38], mode=PLATFORM_GENERATION, duration=0:00:09.760, duration_ms=9760, data={name=finalproj_v1}
+timestamp=[2024-04-29 01:36:38], mode=BUILD, duration=0:00:00.928, duration_ms=928, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-29 01:36:39], mode=BUILD, duration=0:00:00.985, duration_ms=985, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-29 01:37:19], mode=PLATFORM_GENERATION, duration=0:00:39.480, duration_ms=39480, data={name=finalproj_v1}
+timestamp=[2024-04-29 01:37:29], mode=BUILD, duration=0:00:09.990, duration_ms=9990, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-29 01:37:32], mode=BUILD, duration=0:00:00.503, duration_ms=503, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-29 01:43:16], mode=WORKBENCH_START, duration=0:00:14.398, duration_ms=14398, data={}
+timestamp=[2024-04-29 01:43:17], mode=WORKBENCH_UI_INIT, duration=0:00:00.776, duration_ms=776, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,finalproj_v1,usbDrivers,usbDrivers_system}
+timestamp=[2024-04-29 01:43:20], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.927, duration_ms=2927, data={}
+timestamp=[2024-04-30 02:47:16], mode=WORKBENCH_START, duration=0:00:09.391, duration_ms=9391, data={}
+timestamp=[2024-04-30 02:47:17], mode=WORKBENCH_UI_INIT, duration=0:00:00.999, duration_ms=999, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,finalproj_v1,usbDrivers,usbDrivers_system}
+timestamp=[2024-04-30 02:47:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.808, duration_ms=1808, data={}
+timestamp=[2024-04-30 02:47:48], mode=PLATFORM_GENERATION, duration=0:00:04.874, duration_ms=4874, data={name=finalproj_v1}
+timestamp=[2024-04-30 02:47:49], mode=BUILD, duration=0:00:00.695, duration_ms=695, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 02:47:50], mode=BUILD, duration=0:00:00.574, duration_ms=574, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 02:48:04], mode=PLATFORM_GENERATION, duration=0:00:13.784, duration_ms=13784, data={name=finalproj_v1}
+timestamp=[2024-04-30 02:48:09], mode=BUILD, duration=0:00:04.577, duration_ms=4577, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 02:48:10], mode=BUILD, duration=0:00:00.331, duration_ms=331, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 17:28:45], mode=PLATFORM_GENERATION, duration=0:00:10.035, duration_ms=10035, data={name=finalproj_v1}
+timestamp=[2024-04-30 17:28:45], mode=BUILD, duration=0:00:00.535, duration_ms=535, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 17:28:46], mode=BUILD, duration=0:00:00.378, duration_ms=378, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 17:29:06], mode=PLATFORM_GENERATION, duration=0:00:20.101, duration_ms=20101, data={name=finalproj_v1}
+timestamp=[2024-04-30 17:29:12], mode=BUILD, duration=0:00:04.987, duration_ms=4987, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 17:29:13], mode=BUILD, duration=0:00:00.505, duration_ms=505, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 21:54:46], mode=PLATFORM_GENERATION, duration=0:00:05.966, duration_ms=5966, data={name=finalproj_v1}
+timestamp=[2024-04-30 21:54:46], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 21:54:47], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 21:54:58], mode=PLATFORM_GENERATION, duration=0:00:11.216, duration_ms=11216, data={name=finalproj_v1}
+timestamp=[2024-04-30 21:55:01], mode=BUILD, duration=0:00:02.711, duration_ms=2711, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 21:55:02], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 22:15:00], mode=PLATFORM_GENERATION, duration=0:00:04.999, duration_ms=4999, data={name=finalproj_v1}
+timestamp=[2024-04-30 22:15:01], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 22:15:01], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 22:15:12], mode=PLATFORM_GENERATION, duration=0:00:11.162, duration_ms=11162, data={name=finalproj_v1}
+timestamp=[2024-04-30 22:15:15], mode=BUILD, duration=0:00:02.691, duration_ms=2691, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 22:15:16], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 22:31:46], mode=PLATFORM_GENERATION, duration=0:00:01.815, duration_ms=1815, data={name=finalproj_v1}
+timestamp=[2024-04-30 22:31:54], mode=PLATFORM_GENERATION, duration=0:00:05.094, duration_ms=5094, data={name=finalproj_v1}
+timestamp=[2024-04-30 22:31:55], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 22:31:55], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 22:32:07], mode=PLATFORM_GENERATION, duration=0:00:12.018, duration_ms=12018, data={name=finalproj_v1}
+timestamp=[2024-04-30 22:32:10], mode=BUILD, duration=0:00:02.692, duration_ms=2692, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 22:32:11], mode=BUILD, duration=0:00:00.184, duration_ms=184, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 23:07:05], mode=PLATFORM_GENERATION, duration=0:00:05.464, duration_ms=5464, data={name=finalproj_v1}
+timestamp=[2024-04-30 23:07:05], mode=BUILD, duration=0:00:00.256, duration_ms=256, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 23:07:05], mode=BUILD, duration=0:00:00.264, duration_ms=264, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 23:07:21], mode=PLATFORM_GENERATION, duration=0:00:15.662, duration_ms=15662, data={name=finalproj_v1}
+timestamp=[2024-04-30 23:07:24], mode=BUILD, duration=0:00:02.684, duration_ms=2684, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 23:07:25], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 23:31:58], mode=PLATFORM_GENERATION, duration=0:00:05.091, duration_ms=5091, data={name=finalproj_v1}
+timestamp=[2024-04-30 23:31:59], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 23:31:59], mode=BUILD, duration=0:00:00.360, duration_ms=360, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-30 23:32:11], mode=PLATFORM_GENERATION, duration=0:00:12.297, duration_ms=12297, data={name=finalproj_v1}
+timestamp=[2024-04-30 23:32:16], mode=BUILD, duration=0:00:04.792, duration_ms=4792, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-04-30 23:32:18], mode=BUILD, duration=0:00:00.316, duration_ms=316, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 00:08:52], mode=PLATFORM_GENERATION, duration=0:00:05.770, duration_ms=5770, data={name=finalproj_v1}
+timestamp=[2024-05-01 00:08:52], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 00:08:52], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 00:09:10], mode=PLATFORM_GENERATION, duration=0:00:16.860, duration_ms=16860, data={name=finalproj_v1}
+timestamp=[2024-05-01 00:09:13], mode=BUILD, duration=0:00:02.971, duration_ms=2971, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 00:09:14], mode=BUILD, duration=0:00:00.315, duration_ms=315, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 00:41:08], mode=PLATFORM_GENERATION, duration=0:00:05.352, duration_ms=5352, data={name=finalproj_v1}
+timestamp=[2024-05-01 00:41:08], mode=BUILD, duration=0:00:00.423, duration_ms=423, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 00:41:09], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 00:41:21], mode=PLATFORM_GENERATION, duration=0:00:12.172, duration_ms=12172, data={name=finalproj_v1}
+timestamp=[2024-05-01 00:41:24], mode=BUILD, duration=0:00:02.684, duration_ms=2684, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 00:41:25], mode=BUILD, duration=0:00:00.347, duration_ms=347, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 01:02:45], mode=PLATFORM_GENERATION, duration=0:00:05.195, duration_ms=5195, data={name=finalproj_v1}
+timestamp=[2024-05-01 01:02:46], mode=BUILD, duration=0:00:00.299, duration_ms=299, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 01:02:46], mode=BUILD, duration=0:00:00.440, duration_ms=440, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 01:02:58], mode=PLATFORM_GENERATION, duration=0:00:12.100, duration_ms=12100, data={name=finalproj_v1}
+timestamp=[2024-05-01 01:03:01], mode=BUILD, duration=0:00:02.830, duration_ms=2830, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 01:03:02], mode=BUILD, duration=0:00:00.300, duration_ms=300, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 16:39:15], mode=PLATFORM_GENERATION, duration=0:00:05.342, duration_ms=5342, data={name=finalproj_v1}
+timestamp=[2024-05-01 16:39:16], mode=BUILD, duration=0:00:00.236, duration_ms=236, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 16:39:16], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 16:39:29], mode=PLATFORM_GENERATION, duration=0:00:13.287, duration_ms=13287, data={name=finalproj_v1}
+timestamp=[2024-05-01 16:39:32], mode=BUILD, duration=0:00:02.787, duration_ms=2787, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 16:39:33], mode=BUILD, duration=0:00:00.314, duration_ms=314, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 17:46:32], mode=PLATFORM_GENERATION, duration=0:00:05.008, duration_ms=5008, data={name=finalproj_v1}
+timestamp=[2024-05-01 17:46:33], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 17:46:33], mode=BUILD, duration=0:00:00.244, duration_ms=244, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 17:46:46], mode=PLATFORM_GENERATION, duration=0:00:12.436, duration_ms=12436, data={name=finalproj_v1}
+timestamp=[2024-05-01 17:46:49], mode=BUILD, duration=0:00:02.834, duration_ms=2834, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 17:46:50], mode=BUILD, duration=0:00:00.259, duration_ms=259, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 18:05:25], mode=PLATFORM_GENERATION, duration=0:00:04.461, duration_ms=4461, data={name=finalproj_v1}
+timestamp=[2024-05-01 18:05:26], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 18:05:26], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 18:05:38], mode=PLATFORM_GENERATION, duration=0:00:11.639, duration_ms=11639, data={name=finalproj_v1}
+timestamp=[2024-05-01 18:05:41], mode=BUILD, duration=0:00:02.970, duration_ms=2970, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 18:05:42], mode=BUILD, duration=0:00:00.238, duration_ms=238, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 21:41:51], mode=PLATFORM_GENERATION, duration=0:00:06.288, duration_ms=6288, data={name=finalproj_v1}
+timestamp=[2024-05-01 21:41:51], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 21:41:51], mode=BUILD, duration=0:00:00.256, duration_ms=256, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 21:42:05], mode=PLATFORM_GENERATION, duration=0:00:13.513, duration_ms=13513, data={name=finalproj_v1}
+timestamp=[2024-05-01 21:42:09], mode=BUILD, duration=0:00:03.313, duration_ms=3313, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 21:42:10], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 23:19:49], mode=PLATFORM_GENERATION, duration=0:00:07.823, duration_ms=7823, data={name=finalproj_v1}
+timestamp=[2024-05-01 23:19:49], mode=BUILD, duration=0:00:00.384, duration_ms=384, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 23:19:50], mode=BUILD, duration=0:00:00.478, duration_ms=478, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 23:20:14], mode=PLATFORM_GENERATION, duration=0:00:23.704, duration_ms=23704, data={name=finalproj_v1}
+timestamp=[2024-05-01 23:20:19], mode=BUILD, duration=0:00:05.151, duration_ms=5151, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 23:20:21], mode=BUILD, duration=0:00:00.348, duration_ms=348, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 23:57:37], mode=PLATFORM_GENERATION, duration=0:00:05.793, duration_ms=5793, data={name=finalproj_v1}
+timestamp=[2024-05-01 23:57:37], mode=BUILD, duration=0:00:00.377, duration_ms=377, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 23:57:38], mode=BUILD, duration=0:00:00.251, duration_ms=251, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-01 23:57:57], mode=PLATFORM_GENERATION, duration=0:00:19.251, duration_ms=19251, data={name=finalproj_v1}
+timestamp=[2024-05-01 23:58:02], mode=BUILD, duration=0:00:04.262, duration_ms=4262, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-01 23:58:03], mode=BUILD, duration=0:00:00.271, duration_ms=271, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 01:26:45], mode=PLATFORM_GENERATION, duration=0:00:05.493, duration_ms=5493, data={name=finalproj_v1}
+timestamp=[2024-05-02 01:26:45], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 01:26:46], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 01:27:02], mode=PLATFORM_GENERATION, duration=0:00:16.303, duration_ms=16303, data={name=finalproj_v1}
+timestamp=[2024-05-02 01:27:06], mode=BUILD, duration=0:00:03.718, duration_ms=3718, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 01:27:07], mode=BUILD, duration=0:00:00.348, duration_ms=348, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 15:48:55], mode=PLATFORM_GENERATION, duration=0:00:05.251, duration_ms=5251, data={name=finalproj_v1}
+timestamp=[2024-05-02 15:48:55], mode=BUILD, duration=0:00:00.360, duration_ms=360, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 15:48:55], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 15:49:10], mode=PLATFORM_GENERATION, duration=0:00:14.462, duration_ms=14462, data={name=finalproj_v1}
+timestamp=[2024-05-02 15:49:13], mode=BUILD, duration=0:00:03.111, duration_ms=3111, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 15:49:14], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 16:34:52], mode=PLATFORM_GENERATION, duration=0:00:04.735, duration_ms=4735, data={name=finalproj_v1}
+timestamp=[2024-05-02 16:34:52], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 16:34:53], mode=BUILD, duration=0:00:00.238, duration_ms=238, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 16:35:05], mode=PLATFORM_GENERATION, duration=0:00:12.572, duration_ms=12572, data={name=finalproj_v1}
+timestamp=[2024-05-02 16:35:09], mode=BUILD, duration=0:00:02.934, duration_ms=2934, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 16:35:09], mode=BUILD, duration=0:00:00.256, duration_ms=256, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 16:55:40], mode=PLATFORM_GENERATION, duration=0:00:04.618, duration_ms=4618, data={name=finalproj_v1}
+timestamp=[2024-05-02 16:55:40], mode=BUILD, duration=0:00:00.299, duration_ms=299, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 16:55:40], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 16:55:52], mode=PLATFORM_GENERATION, duration=0:00:11.766, duration_ms=11766, data={name=finalproj_v1}
+timestamp=[2024-05-02 16:55:55], mode=BUILD, duration=0:00:03.130, duration_ms=3130, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 16:55:56], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 17:12:51], mode=PLATFORM_GENERATION, duration=0:00:05.020, duration_ms=5020, data={name=finalproj_v1}
+timestamp=[2024-05-02 17:12:51], mode=BUILD, duration=0:00:00.265, duration_ms=265, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 17:12:52], mode=BUILD, duration=0:00:00.251, duration_ms=251, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 17:13:04], mode=PLATFORM_GENERATION, duration=0:00:12.206, duration_ms=12206, data={name=finalproj_v1}
+timestamp=[2024-05-02 17:13:07], mode=BUILD, duration=0:00:02.986, duration_ms=2986, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 17:13:08], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 17:25:29], mode=PLATFORM_GENERATION, duration=0:00:04.894, duration_ms=4894, data={name=finalproj_v1}
+timestamp=[2024-05-02 17:25:29], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 17:25:30], mode=BUILD, duration=0:00:00.250, duration_ms=250, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 17:25:42], mode=PLATFORM_GENERATION, duration=0:00:12.638, duration_ms=12638, data={name=finalproj_v1}
+timestamp=[2024-05-02 17:25:46], mode=BUILD, duration=0:00:03.174, duration_ms=3174, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 17:25:47], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 18:15:43], mode=PLATFORM_GENERATION, duration=0:00:06.190, duration_ms=6190, data={name=finalproj_v1}
+timestamp=[2024-05-02 18:15:43], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 18:15:44], mode=BUILD, duration=0:00:00.243, duration_ms=243, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 18:15:58], mode=PLATFORM_GENERATION, duration=0:00:13.968, duration_ms=13968, data={name=finalproj_v1}
+timestamp=[2024-05-02 18:16:03], mode=BUILD, duration=0:00:04.838, duration_ms=4838, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 18:16:04], mode=BUILD, duration=0:00:00.238, duration_ms=238, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 20:16:32], mode=PLATFORM_GENERATION, duration=0:00:05.045, duration_ms=5045, data={name=finalproj_v1}
+timestamp=[2024-05-02 20:16:32], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 20:16:33], mode=BUILD, duration=0:00:00.313, duration_ms=313, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 20:16:46], mode=PLATFORM_GENERATION, duration=0:00:12.908, duration_ms=12908, data={name=finalproj_v1}
+timestamp=[2024-05-02 20:16:50], mode=BUILD, duration=0:00:03.345, duration_ms=3345, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 20:16:50], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 20:33:25], mode=PLATFORM_GENERATION, duration=0:00:04.816, duration_ms=4816, data={name=finalproj_v1}
+timestamp=[2024-05-02 20:33:26], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 20:33:26], mode=BUILD, duration=0:00:00.250, duration_ms=250, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 20:33:39], mode=PLATFORM_GENERATION, duration=0:00:13.117, duration_ms=13117, data={name=finalproj_v1}
+timestamp=[2024-05-02 20:33:43], mode=BUILD, duration=0:00:03.559, duration_ms=3559, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 20:33:44], mode=BUILD, duration=0:00:00.251, duration_ms=251, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 21:49:03], mode=PLATFORM_GENERATION, duration=0:00:09.499, duration_ms=9499, data={name=finalproj_v1}
+timestamp=[2024-05-02 21:49:04], mode=BUILD, duration=0:00:00.472, duration_ms=472, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 21:49:04], mode=BUILD, duration=0:00:00.695, duration_ms=695, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 21:49:26], mode=PLATFORM_GENERATION, duration=0:00:21.546, duration_ms=21546, data={name=finalproj_v1}
+timestamp=[2024-05-02 21:49:32], mode=BUILD, duration=0:00:05.524, duration_ms=5524, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 21:49:34], mode=BUILD, duration=0:00:00.426, duration_ms=426, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 23:41:29], mode=PLATFORM_GENERATION, duration=0:00:05.229, duration_ms=5229, data={name=finalproj_v1}
+timestamp=[2024-05-02 23:41:30], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 23:41:30], mode=BUILD, duration=0:00:00.475, duration_ms=475, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-02 23:41:45], mode=PLATFORM_GENERATION, duration=0:00:14.306, duration_ms=14306, data={name=finalproj_v1}
+timestamp=[2024-05-02 23:41:49], mode=BUILD, duration=0:00:03.640, duration_ms=3640, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-02 23:41:50], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 00:08:06], mode=PLATFORM_GENERATION, duration=0:00:05.084, duration_ms=5084, data={name=finalproj_v1}
+timestamp=[2024-05-03 00:08:06], mode=BUILD, duration=0:00:00.315, duration_ms=315, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 00:08:07], mode=BUILD, duration=0:00:00.309, duration_ms=309, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 00:08:23], mode=PLATFORM_GENERATION, duration=0:00:16.171, duration_ms=16171, data={name=finalproj_v1}
+timestamp=[2024-05-03 00:08:27], mode=BUILD, duration=0:00:03.596, duration_ms=3596, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 00:08:28], mode=BUILD, duration=0:00:00.251, duration_ms=251, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 01:03:06], mode=PLATFORM_GENERATION, duration=0:00:04.761, duration_ms=4761, data={name=finalproj_v1}
+timestamp=[2024-05-03 01:03:06], mode=BUILD, duration=0:00:00.298, duration_ms=298, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 01:03:07], mode=BUILD, duration=0:00:00.315, duration_ms=315, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 01:03:23], mode=PLATFORM_GENERATION, duration=0:00:16.569, duration_ms=16569, data={name=finalproj_v1}
+timestamp=[2024-05-03 01:03:28], mode=BUILD, duration=0:00:03.455, duration_ms=3455, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 01:03:29], mode=BUILD, duration=0:00:00.280, duration_ms=280, data={name=usbDrivers_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 12:07:50], mode=PLATFORM_GENERATION, duration=0:00:06.027, duration_ms=6027, data={name=finalproj_v1}
+timestamp=[2024-05-03 12:07:50], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=usbDrivers, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 12:07:50], mode=BUILD, duration=0:00:00.359, duration_ms=359, data={name=usbDrivers_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 12:08:08], mode=PLATFORM_GENERATION, duration=0:00:17.998, duration_ms=17998, data={name=finalproj_v1}
+timestamp=[2024-05-03 12:08:13], mode=BUILD, duration=0:00:03.992, duration_ms=3992, data={name=usbDrivers, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 12:08:14], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=usbDrivers_system, configuration=Debug, clean_build=false}

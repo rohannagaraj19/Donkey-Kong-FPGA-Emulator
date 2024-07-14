@@ -1,0 +1,2 @@
+winsScreen_rom.v,verilog,xil_defaultlib,../../../../project_1.gen/sources_1/ip/winsScreen_rom/sim/winsScreen_rom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

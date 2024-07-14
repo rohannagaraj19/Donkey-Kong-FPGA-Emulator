@@ -1,0 +1,2 @@
+dkjump_rom.v,verilog,xil_defaultlib,../../../../project_1.gen/sources_1/ip/dkjump_rom/sim/dkjump_rom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

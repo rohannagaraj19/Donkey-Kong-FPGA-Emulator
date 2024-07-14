@@ -1,0 +1,6 @@
+12:08:14 **** Build of configuration Debug for project usbDrivers_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+12:08:14 Build Finished (took 219ms)
+

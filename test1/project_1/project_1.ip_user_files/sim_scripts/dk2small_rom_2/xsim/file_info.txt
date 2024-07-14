@@ -1,0 +1,2 @@
+dk2small_rom.v,verilog,xil_defaultlib,../../../../project_1.gen/sources_1/ip/dk2small_rom_2/sim/dk2small_rom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

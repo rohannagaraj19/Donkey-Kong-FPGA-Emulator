@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="usbDrivers" location="C:/Users/rohan/385FinalProject/test1/finalProjworkspace/usbDrivers" platform="C:/Users/rohan/385FinalProject/test1/finalProjworkspace/finalproj_v1/export/finalproj_v1/finalproj_v1.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="usbDrivers_system" sysConfig="finalproj_v1" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="3c40a2f172df10ec2ebf7e6065afcdc5">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1823691656">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1471892613" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

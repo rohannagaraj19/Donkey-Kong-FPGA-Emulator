@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="MyBallZachErtz" location="C:/Users/rohan/385lab6/week2workspace/MyBallZachErtz" platform="C:/Users/rohan/385lab6/week2workspace/mb_usb_hdmi_top_v5/export/mb_usb_hdmi_top_v5/mb_usb_hdmi_top_v5.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="MyBallZachErtz_system" sysConfig="mb_usb_hdmi_top_v5" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="3c40a2f172df10ec2ebf7e6065afcdc5">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.9495170">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.80278868" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
